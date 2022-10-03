@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 550px;
+    width: 500px;
+    border: solid 1px;
+    margin: 50px auto;
+}
+
+.formulario{
+    width: 450px;
+    height: 200px;
+    border: solid 1px;
+    margin: 50px 5%;
+    display: flex;
+    float: left;
+}
+
+.izquierda{
+    width: 50%;
+    height: 100%;
+    margin: 30px;
+    text-align: center;
+}
+
+#propi{
+    width: 180px;
+}
+
+#buscar{
+    margin-top: 20px;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.derecha{
+    width: 50%;
+    height: 100%;
+}
+
+#imagen1{
+    height: 197px;
+    margin-left: 25%;
+}
+
+.mostrar{
+    border: solid 1px;
+    width: 450px;
+    height: 200px;
+    margin: 300px auto;
+}
