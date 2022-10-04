@@ -61,7 +61,7 @@ boton.addEventListener('click',() => {
         for (let i in contacto) {
 
             if(contacto[i].nombre===nombre.value){
-                if (seleccionar.value === 'Todos') {
+                if (seleccionar.value === 'todos') {
                     display.innerHTML = ('Apellido:' + contacto[i].apellido)
                     display.innerHTML += ('Numero:' + contacto[i].numero)
                     display.innerHTML += ('Gustos:' + contacto[i].gustos)
